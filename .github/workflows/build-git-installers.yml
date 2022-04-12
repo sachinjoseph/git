@@ -167,6 +167,7 @@ jobs:
       - uses: git-for-windows/setup-git-for-windows-sdk@v1
         with:
           flavor: build-installers
+          cache: false
       - name: Clone build-extra
         shell: bash
         run: |
